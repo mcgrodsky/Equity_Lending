@@ -192,11 +192,17 @@ Theme Name: Eqiuty Lending Inc.
   }
 
   /*keyword descritipn toggled divs*/
-
+  #keyword-description{
+    width:80%;
+    margin:0 auto;
+  }
   .hidden-keyword-description-one, .hidden-keyword-description-two, .hidden-keyword-description-three{
   display:none;
   }
 
+  .cta-btn{
+    display:none;
+  }
 
   /*neighborhood display template*/
 

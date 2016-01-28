@@ -6,25 +6,32 @@
     $('.target-icon-one').hover(
       function () {
         $('.hidden-keyword-description-one').show();
+        $('.cta-btn').show();
       },
       function () {
         $('.hidden-keyword-description-one').hide();
+        $('.cta-btn').hide();
       }
     );
     $('.target-icon-two').hover(
       function () {
         $('.hidden-keyword-description-two').show();
+        $('.cta-btn').show();
       },
       function () {
         $('.hidden-keyword-description-two').hide();
+        $('.cta-btn').hide();
       }
     );
     $('.target-icon-three').hover(
       function () {
         $('.hidden-keyword-description-three').show();
+        $('.cta-btn').show();
       },
       function () {
         $('.hidden-keyword-description-three').hide();
+        $('.cta-btn').hide();
+
       }
     );
 

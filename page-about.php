@@ -46,9 +46,12 @@
     </div>
 
     <div id = "keyword-description">
-      <p class = "hidden-keyword-description-one">WE know stuff. Period. </p>
-      <p class = "hidden-keyword-description-two">We know other stuff. Exclamation! </p>
-      <p class = "hidden-keyword-description-three">Do we know stuff? </p>
+      <p class = "hidden-keyword-description-one"><?php the_field('adjective_description_1'); ?></p>
+      <p class = "hidden-keyword-description-two"><?php the_field('adjective_description_2'); ?> </p>
+      <p class = "hidden-keyword-description-three"><?php the_field('adjective_description_3'); ?></p>
+      <button class = "cta-btn"><?php the_field('call_to_action_field_1'); ?> </button>
+      <button class = "cta-btn"><?php the_field('call_to_action_field_2'); ?> </button>
+
     </div>
 
 </div>
