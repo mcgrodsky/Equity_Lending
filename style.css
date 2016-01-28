@@ -29,6 +29,7 @@ Theme Name: Eqiuty Lending Inc.
     background-size:100% auto;
   }
 
+
     /*nav menu*/
   .logo{
     position: absolute;
@@ -194,8 +195,9 @@ Theme Name: Eqiuty Lending Inc.
     float: left;
     width:32.05%;
     padding-right: 20px;
-    border: 1px solid pink;
+    border: 1px solid lightgray;
     margin-right: 1em;
+    height: 480px;
   }
 
   #neighborhood-item:after {
@@ -213,14 +215,18 @@ Theme Name: Eqiuty Lending Inc.
   }
   .neighborhood-type{
     font-size: 20px;
-    background: lightblue;
+    background:#2BA8E0;
     overflow:auto;
+    display: inline-block;
   }
   .neighborhood-amount{
     font-size: 20px;
+    background:#7EA317;
   }
   .neighborhood-description{
-    font-size:20px;
+    font-size:18px;
+    font-style: italic;
+    padding:1em 0;
   }
 
 
