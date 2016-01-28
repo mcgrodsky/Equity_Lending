@@ -133,6 +133,9 @@ body{
     position:absolute; /*img stay in place*/
   }
 
+  .about-me-header{
+    text-align: center;
+  }
   .about-description{
     border:1px solid red;
     width:70%;

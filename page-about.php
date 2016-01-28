@@ -1,6 +1,9 @@
 <?php get_header(); ?>
 <div id ="page-about" class = "clearfix">
   <div class = "about-description">
+    <!-- ACF for paragraph header -->
+    <h1 class = "about-me-header"><?php the_field('page_header'); ?></h1>
+    <!-- loop to print content  -->
     <?php
     if(have_posts()):
       while(have_posts()):
@@ -16,6 +19,7 @@
       <h2 class = "target-word"><?php the_field('adjective2'); ?></h2>
       <h2 class = "target-word"><?php the_field('adjective3'); ?></h2>
     </div>
+
      <!-- ACF for target images -->
      <div id = "target-icons" class = "clearfix">
       <?php
@@ -34,9 +38,8 @@
         <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon" />
       <?php endif; ?>
     </div>
-
 </div>
-<!-- loop to print content  -->
+
 
 </div>
 <?php get_footer(); ?>
