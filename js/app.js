@@ -1,5 +1,11 @@
 (function($){
   $(document).ready(function(){
+
+    $(".target-icon-one").on("mouseover", function(){
+      console.log("hey");
+    })
+
+
     // set var to div on about page
     var img_carousel = $('#page-about');
     // hardcode imgs in an array to shuffle through
@@ -15,5 +21,6 @@
     setTimeout(nextBackground, 4000);
     img_carousel.css('background', backgrounds[0]);
   });
+
 
 })(jQuery);

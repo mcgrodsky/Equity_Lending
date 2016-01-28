@@ -29,6 +29,7 @@ Theme Name: Eqiuty Lending Inc.
     background-size:100% auto;
   }
 
+
     /*nav menu*/
   .logo{
     position: absolute;
@@ -50,6 +51,7 @@ Theme Name: Eqiuty Lending Inc.
   .footer, .push {
   height: 2em;
   background: white;
+  text-align: center;
   }
 
   /* The container wrapping ul.dropdown */
@@ -64,7 +66,7 @@ Theme Name: Eqiuty Lending Inc.
   ul.dropdown {
   list-style:none;
   width:98%; /* to offset */
-  padding: 2.5em 0;
+  padding: 4em 2em;
   }
 
   ul.dropdown  li{
@@ -122,12 +124,20 @@ Theme Name: Eqiuty Lending Inc.
   /* Display the submenus only when li are hovered */
   ul.dropdown li:hover ul,
   ul.dropdown ul li:hover ul ,
-  ul.dropdown ul li ul li:hover ul
-  { display: block;}
+  ul.dropdown ul li ul li:hover ul {
+  display: block;
+  border:1px solid gray;
+  border-radius: 10px;
+  background:#e6e6e6;
+  display: inline-block;
+  }
 
+  .menu-item{
+  }
   ul.dropdown li * a:hover {
   /* Change color of links when hovered */
-
+  background:#2BA8E0;
+  border-radius:5px;
   }
 
   /* about page */
@@ -138,40 +148,57 @@ Theme Name: Eqiuty Lending Inc.
     position:absolute; /*img stay in place*/
   }
 
-  .about-me-header{
-    text-align: center;
-  }
+    /*description box*/
   .about-description{
-    border:1px solid red;
+    border:1px solid gray;
+    background:white;
     width:70%;
     margin:7em auto;
     height:auto;
   }
-
-  .target-word{
-    width:33%;
-    float:left;
+  .about-me-header{
     text-align: center;
+    padding:.5em 0;
   }
-
+  .target-word{
+    width:32.5%;
+    float:left;
+    text-align:center;
+    padding:.5em 0;
+  }
     #target-icons{
       margin-top:1em;
+      padding:0 0 2em;
     }
-  .target-icon{
-    border:2px solid pink;
+    /*div around icon*/
+  .single-icon{
     width:22.6%;
-    height:200px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 100px;
     margin: 0 5%;
-
+    float:left;
+    text-align:center;
+  }
+  .target-icon{
+    vertical-align: middle;
+    border: 1px solid lightgray;
+    padding:1em;
+    border-radius:50px;
   }
 
+  .target-icon:hover{
+    border:3px solid pink;
+  }
+
+  /*keyword descritipn toggled divs*/
+
+  .hidden-keyword-description-one, .hidden-keyword-description-two, .hidden-keyword-description-three{
+  display:none;
+  }
   /*neighborhood display template*/
 
   #neighborhood-display{
-    border: 2px solid red;
     width: 90%;
     margin: 3em auto;
     text-align: center;
@@ -179,9 +206,11 @@ Theme Name: Eqiuty Lending Inc.
 
   [id*='neighborhood-item'] {
     float: left;
-    width:33%;
+    width:32.05%;
     padding-right: 20px;
-
+    border: 1px solid lightgray;
+    margin-right: 1em;
+    height: 480px;
   }
 
   #neighborhood-item:after {
@@ -199,16 +228,19 @@ Theme Name: Eqiuty Lending Inc.
   }
   .neighborhood-type{
     font-size: 20px;
-    background: lightblue;
+    background:#2BA8E0;
     overflow:auto;
+    display: inline-block;
   }
   .neighborhood-amount{
     font-size: 20px;
+      background:#7EA317;
   }
   .neighborhood-description{
-    font-size:20px;
+    font-size:18px;
+    font-style: italic;
+    padding:1em 0;
   }
-
 
 
   /*authorship for flaticoncs - currently hidden in footer :/ */
