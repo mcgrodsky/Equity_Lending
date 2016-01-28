@@ -1,9 +1,7 @@
 <?php
-// Template Name: Neighborhood Display
+// Template Name: Forms Display
 ?>
 <?php get_header(); ?>
-
-<h3>Two Column</h3>
 
   <?php if(have_posts()):
     while(have_posts()):
@@ -11,6 +9,6 @@
       <h2><?php the_content();?></h2>
 
   <?php endwhile; ?>
-<?php endif; ?>
-
-<?php get_footer(); ?>
+  <?php endif; ?>
+  <h3> Forms! </h3>
+<?php get_footer();?>

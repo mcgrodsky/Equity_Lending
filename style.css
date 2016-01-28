@@ -12,7 +12,6 @@ html, body {
 
 body{
   margin:0;
-  background:url('5th_st.jpg');
   background-size:100% auto;
 }
 
@@ -28,9 +27,6 @@ body{
 
 
   /*nav menu*/
-
-
-
 .logo{
   position: absolute;
   margin: 0;
@@ -42,7 +38,7 @@ body{
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -4em;
+  margin: 0 auto -1em;
 
 }
 
@@ -129,4 +125,29 @@ body{
   ul.dropdown li * a:hover {
   /* Change color of links when hovered */
 
-  }*/
+  }
+
+/* about page */
+
+#page-about {
+  height: 800px;
+  background-size:100% auto !important;
+  position:absolute; /*img stay in place*/
+}
+
+.about-description{
+  border:1px solid red;
+  width:70%;
+  margin:7em auto;
+  height:auto;
+}
+
+.icon-div{
+  width:33%;
+  float:left;
+  text-align: center;
+}
+
+.attributions {
+  display: none;
+}
