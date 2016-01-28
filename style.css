@@ -66,7 +66,7 @@ Theme Name: Eqiuty Lending Inc.
   ul.dropdown {
   list-style:none;
   width:98%; /* to offset */
-  padding: 2.5em 0;
+  padding: 4em 2em;
   }
 
   ul.dropdown  li{
@@ -124,12 +124,20 @@ Theme Name: Eqiuty Lending Inc.
   /* Display the submenus only when li are hovered */
   ul.dropdown li:hover ul,
   ul.dropdown ul li:hover ul ,
-  ul.dropdown ul li ul li:hover ul
-  { display: block;}
+  ul.dropdown ul li ul li:hover ul {
+  display: block;
+  border:1px solid gray;
+  border-radius: 10px;
+  background:#e6e6e6;
+  display: inline-block;
+  }
 
+  .menu-item{
+  }
   ul.dropdown li * a:hover {
   /* Change color of links when hovered */
-  background:pink;
+  background:#2BA8E0;
+  border-radius:5px;
   }
 
   /* about page */
@@ -183,6 +191,11 @@ Theme Name: Eqiuty Lending Inc.
     border:3px solid pink;
   }
 
+  /*keyword descritipn toggled divs*/
+
+  .hidden-keyword-description-one, .hidden-keyword-description-two, .hidden-keyword-description-three{
+  display:none;
+  }
   /*neighborhood display template*/
 
   #neighborhood-display{
@@ -221,7 +234,7 @@ Theme Name: Eqiuty Lending Inc.
   }
   .neighborhood-amount{
     font-size: 20px;
-    background:#7EA317;
+      background:#7EA317;
   }
   .neighborhood-description{
     font-size:18px;

@@ -14,4 +14,6 @@
 <h4> Plugins Used </h4>
   <ol>
     <li>Advanced Custom Fields</li>
+    <li>Google Forms</li>
+    <li> BestWebSoft Contact Form </li>
   </ol>

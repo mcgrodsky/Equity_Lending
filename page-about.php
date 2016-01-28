@@ -26,24 +26,31 @@
         <?php
           $image = get_field('image1');
           if( !empty($image) ): ?>
-          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon" />
+          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon target-icon-one" />
         <?php endif; ?>
        </div>
       <div class = "single-icon">
         <?php
           $image = get_field('image2');
           if( !empty($image) ): ?>
-          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon" />
+          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon target-icon-two" />
         <?php endif; ?>
       </div>
       <div class = "single-icon">
         <?php
           $image = get_field('image3');
           if( !empty($image) ): ?>
-          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon" />
+          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon target-icon-three" />
         <?php endif; ?>
       </div>
     </div>
+
+    <div id = "keyword-description">
+      <p class = "hidden-keyword-description-one">WE know stuff. Period. </p>
+      <p class = "hidden-keyword-description-two">We know other stuff. Exclamation! </p>
+      <p class = "hidden-keyword-description-three">Do we know stuff? </p>
+    </div>
+
 </div>
 
 
