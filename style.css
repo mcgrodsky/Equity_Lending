@@ -50,6 +50,7 @@ Theme Name: Eqiuty Lending Inc.
   .footer, .push {
   height: 2em;
   background: white;
+  text-align: center;
   }
 
   /* The container wrapping ul.dropdown */
@@ -127,7 +128,7 @@ Theme Name: Eqiuty Lending Inc.
 
   ul.dropdown li * a:hover {
   /* Change color of links when hovered */
-
+  background:pink;
   }
 
   /* about page */
@@ -138,40 +139,52 @@ Theme Name: Eqiuty Lending Inc.
     position:absolute; /*img stay in place*/
   }
 
-  .about-me-header{
-    text-align: center;
-  }
+    /*description box*/
   .about-description{
-    border:1px solid red;
+    border:1px solid gray;
+    background:white;
     width:70%;
     margin:7em auto;
     height:auto;
   }
-
-  .target-word{
-    width:33%;
-    float:left;
+  .about-me-header{
     text-align: center;
+    padding:.5em 0;
   }
-
+  .target-word{
+    width:32.5%;
+    float:left;
+    text-align:center;
+    padding:.5em 0;
+  }
     #target-icons{
       margin-top:1em;
+      padding:0 0 2em;
     }
-  .target-icon{
-    border:2px solid pink;
+    /*div around icon*/
+  .single-icon{
     width:22.6%;
-    height:200px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 100px;
     margin: 0 5%;
+    float:left;
+    text-align:center;
+  }
+  .target-icon{
+    vertical-align: middle;
+    border: 1px solid lightgray;
+    padding:1em;
+    border-radius:50px;
+  }
 
+  .target-icon:hover{
+    border:3px solid pink;
   }
 
   /*neighborhood display template*/
 
   #neighborhood-display{
-    border: 2px solid red;
     width: 90%;
     margin: 3em auto;
     text-align: center;
@@ -179,9 +192,10 @@ Theme Name: Eqiuty Lending Inc.
 
   [id*='neighborhood-item'] {
     float: left;
-    width:33%;
+    width:32.05%;
     padding-right: 20px;
-
+    border: 1px solid pink;
+    margin-right: 1em;
   }
 
   #neighborhood-item:after {
@@ -208,7 +222,6 @@ Theme Name: Eqiuty Lending Inc.
   .neighborhood-description{
     font-size:20px;
   }
-
 
 
   /*authorship for flaticoncs - currently hidden in footer :/ */

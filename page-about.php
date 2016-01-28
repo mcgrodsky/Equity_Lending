@@ -22,21 +22,27 @@
 
      <!-- ACF for target images -->
      <div id = "target-icons" class = "clearfix">
-      <?php
-        $image = get_field('image1');
-        if( !empty($image) ): ?>
-        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon" />
-      <?php endif; ?>
-      <?php
-        $image = get_field('image2');
-        if( !empty($image) ): ?>
-        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon" />
-      <?php endif; ?>
-      <?php
-        $image = get_field('image3');
-        if( !empty($image) ): ?>
-        <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon" />
-      <?php endif; ?>
+       <div class = "single-icon">
+        <?php
+          $image = get_field('image1');
+          if( !empty($image) ): ?>
+          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon" />
+        <?php endif; ?>
+       </div>
+      <div class = "single-icon">
+        <?php
+          $image = get_field('image2');
+          if( !empty($image) ): ?>
+          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon" />
+        <?php endif; ?>
+      </div>
+      <div class = "single-icon">
+        <?php
+          $image = get_field('image3');
+          if( !empty($image) ): ?>
+          <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "target-icon" />
+        <?php endif; ?>
+      </div>
     </div>
 </div>
 
