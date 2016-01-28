@@ -8,7 +8,7 @@
   <body>
     <div class = "wrapper">
       <div class = "clearfix" id = "header-nav">
-        <div class= "logo"> <img src="http://i.imgur.com/oHYEVI1.jpg" alt="Equity Lending Inc" width="250px" height="100px" class = "img-one" /> </div>
+        <a href="<?php echo get_option('about'); ?>/"><div class= "logo"> <img src="http://i.imgur.com/oHYEVI1.jpg" alt="Equity Lending Inc" width="250px" height="100px" class = "img-one" /> </div></a>
         <div id="navigation" class = "clearfix">
           <?php
         wp_nav_menu( array(

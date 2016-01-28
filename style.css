@@ -169,3 +169,12 @@ body{
   .attributions {
     display: none;
   }
+
+  /*neighborhood display template*/
+
+  #neighborhood-display{
+    border: 2px solid red;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
