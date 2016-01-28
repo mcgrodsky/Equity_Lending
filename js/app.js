@@ -1,10 +1,32 @@
 (function($){
   $(document).ready(function(){
 
-    $(".target-icon-one").on("mouseover", function(){
-      console.log("hey");
-    })
+// to refactor - put icons and descriptions in two arrays - loop through array calling hover function - 4/5 lines
 
+    $('.target-icon-one').hover(
+      function () {
+        $('.hidden-keyword-description-one').show();
+      },
+      function () {
+        $('.hidden-keyword-description-one').hide();
+      }
+    );
+    $('.target-icon-two').hover(
+      function () {
+        $('.hidden-keyword-description-two').show();
+      },
+      function () {
+        $('.hidden-keyword-description-two').hide();
+      }
+    );
+    $('.target-icon-three').hover(
+      function () {
+        $('.hidden-keyword-description-three').show();
+      },
+      function () {
+        $('.hidden-keyword-description-three').hide();
+      }
+    );
 
     // set var to div on about page
     var img_carousel = $('#page-about');
