@@ -32,7 +32,6 @@ body{
   margin: 0;
 }
 
-
   /*footer...regretful !important tag - fix? */
 .wrapper {
   min-height: 100%;
@@ -46,7 +45,6 @@ body{
   height: 2em;
   background: white;
 }
-
 
   /* The container wrapping ul.dropdown */
   #navwrap {
@@ -127,27 +125,44 @@ body{
 
   }
 
-/* about page */
+  /* about page */
 
-#page-about {
-  height: 800px;
-  background-size:100% auto !important;
-  position:absolute; /*img stay in place*/
-}
+  #page-about {
+    height: 800px;
+    background-size:100% auto !important;
+    position:absolute; /*img stay in place*/
+  }
 
-.about-description{
-  border:1px solid red;
-  width:70%;
-  margin:7em auto;
-  height:auto;
-}
+  .about-description{
+    border:1px solid red;
+    width:70%;
+    margin:7em auto;
+    height:auto;
+  }
 
-.icon-div{
-  width:33%;
-  float:left;
-  text-align: center;
-}
+  .target-word{
+    width:33%;
+    float:left;
+    text-align: center;
+  }
 
-.attributions {
-  display: none;
-}
+    #target-icons{
+      margin-top:1em;
+    }
+  .target-icon{
+    border:2px solid pink;
+    width:22.6%;
+    height:200px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 100px;
+    margin: 0 5%;
+
+  }
+
+
+
+  /*authorship for flaticoncs*/
+  .attributions {
+    display: none;
+  }
