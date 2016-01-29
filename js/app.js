@@ -36,17 +36,17 @@
     );
 
 
-    // $('.target-icon-three').hover(
-    //   function () {
-    //     $('.hidden-keyword-description-three').show();
-    //     $('.cta-btn').show();
-    //   },
-    //   function () {
-    //     $('.hidden-keyword-description-three').hide();
-    //     $('.cta-btn').hide();
-    //
-    //   }
-    // );
+    $('.target-icon-three').hover(
+      function () {
+        $('.hidden-keyword-description-three').show();
+        $('.cta-btn').show();
+      },
+      function () {
+        $('.hidden-keyword-description-three').hide();
+        $('.cta-btn').hide();
+
+      }
+    );
 
     // set var to div on about page
     var img_carousel = $('#page-about');
