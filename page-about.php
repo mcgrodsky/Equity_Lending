@@ -51,11 +51,8 @@
       <p class = "hidden-keyword-description-three"><?php the_field('adjective_description_3'); ?></p>
       <button class = "cta-btn"><?php the_field('call_to_action_field_1'); ?> </button>
       <button class = "cta-btn"><?php the_field('call_to_action_field_2'); ?> </button>
-
     </div>
 
 </div>
-
-
 </div>
 <?php get_footer(); ?>

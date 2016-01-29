@@ -210,20 +210,18 @@ Theme Name: Eqiuty Lending Inc.
   }
   [id*='neighborhood-item'] {
     float: left;
-    width:32.05%;
+    width:30.05%;
     padding-right: 20px;
     border: 1px solid lightgray;
-    margin-right: 1em;
-    height: 480px;
+    margin-right: 2em;
+    height:auto;
   }
   #neighborhood-item:after {
   content: "";
   display: table;
   clear: both;
 }
-  .neighborhood-title{
-    font-size: 30vw;
-  }
+
   .neighborhood-img{
     width:80%;
     height: 270px;
@@ -261,43 +259,67 @@ Theme Name: Eqiuty Lending Inc.
 
 /*media queries*/
 
-/*between 768px and 979px*/
+/*between 817px and 979px*/
 @media (min-width: 768px) and (max-width: 979px) {
   .about-description{
     width: 90%;
   }
-
+  #neighborhood-display{
+    background: orange;
+  }
+  [id*='neighborhood-item']{
+    width:45%;
+  }
 }
 
 /*less than 767px  */
-@media (max-width: 767px) {
+@media (max-width: 816px) {
+  /*about page*/
   .about-description{
     width:95%;
 }
+  #menu-nav-menu{
+    /*display:none;*/
+  }
 
-#menu-nav-menu{
-  /*display:none;*/
+  .logo-img{
+    position:relative;
+  }
+
+  #navwrap{
+    height:60px;
+  }
+  #menu-nav-menu{
+    padding:0;
+  }
+  .menu-item{
+    float:left;
+  }
+  #neighborhood-display{
+    background: pink;
+  }
+  [id*='neighborhood-item']{
+    width:100%;
+  }
 }
 
-.logo-img{
-  position:relative;
-}
-
-#navwrap{
-  height:60px;
-}
-#menu-nav-menu{
-  padding:0;
-}
-.menu-item{
-  float:left;
-}
-}
 
 /*more than 1200px  */
 @media (min-width: 980px) {
   .about-description{
     background:lightgray;
 }
-
+#neighborhood-display{
+  background: yellow;
 }
+}
+
+
+/*between 980px and 1200px*/
+@media (min-width: 980px) and (max-width: 1200px) {
+  #neighborhood-display{
+    background: blue;
+  }
+  [id*='neighborhood-item']{
+    width:46%;
+  }
