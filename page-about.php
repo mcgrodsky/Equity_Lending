@@ -8,7 +8,7 @@
     if(have_posts()):
       while(have_posts()):
         the_post(); ?>
-        <h3><?php the_content(); ?> </h3>
+        <h3 class="about-content"><?php the_content(); ?> </h3>
       <?php endwhile;
     endif;
     ?>

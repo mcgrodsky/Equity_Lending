@@ -1,8 +1,9 @@
 (function($){
   $(document).ready(function(){
-
+    $('.hamburgerMenu').on('click', function(){
+      console.log("hamburger");
+    })
 // to refactor - put icons and descriptions in two arrays - loop through array calling hover function - 4/5 lines
-
     $('.target-icon-one').hover(
       function () {
         $('.hidden-keyword-description-one').show();
@@ -13,6 +14,7 @@
         $('.cta-btn').hide();
       }
     );
+
     $('.target-icon-two').hover(
       function () {
         $('.hidden-keyword-description-two').show();
@@ -23,6 +25,7 @@
         $('.cta-btn').hide();
       }
     );
+
     $('.target-icon-three').hover(
       function () {
         $('.hidden-keyword-description-three').show();
