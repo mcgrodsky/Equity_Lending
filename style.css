@@ -143,7 +143,7 @@ Theme Name: Eqiuty Lending Inc.
     /*description box*/
   .about-description{
     border:1px solid gray;
-    background:white;
+    background:rgba(255,255,255, .7);  
     width:70%;
     margin:4em auto;
     height:auto;
@@ -275,10 +275,6 @@ input[type=text] {
   .about-description{
     width:95%;
 }
-  #menu-nav-menu{
-    /*display:none;*/
-  }
-
   .logo-img{
     position:relative;
   }
@@ -299,6 +295,10 @@ input[type=text] {
   }
   #contact-page{
     width:90%;
+  }
+  .logo-img{
+    display: block;
+    margin:0 auto;
   }
 }
 
