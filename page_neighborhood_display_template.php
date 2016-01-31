@@ -23,7 +23,7 @@
 
   <!-- individual block of neighborhood info for neighborhood 2-->
   <div class = "grid">
-    <div id = "neighborhood-item" class = "clearfix">
+    <div id = "neighborhood-item" class = "clearfix item2">
       <h1 class = "neighborhood-title"><?php the_field('neighborhood_Title_2'); ?></h1>
       <?php
       $image = get_field('image_2');
@@ -38,7 +38,7 @@
 
   <!-- individual block of neighborhood info for neighborhood 3-->
   <div class = "grid">
-    <div id = "neighborhood-item" class = "clearfix">
+    <div id = "neighborhood-item" class = "clearfix item3">
       <h1 class = "neighborhood-title"><?php the_field('neighborhood_Title_3'); ?></h1>
       <?php
       $image = get_field('image_3');
