@@ -54,7 +54,7 @@ Theme Name: Eqiuty Lending Inc.
   }
   #navigation{
     position:fixed;
-    transition: all 0.1s ease;
+    transition: all 0.1 s ease;
     width:100%;
     float:right;
 
@@ -66,7 +66,6 @@ Theme Name: Eqiuty Lending Inc.
     background: white;
     border-bottom: 2px solid #034077;
     border-top: 2px solid #034077;
-    height:155px;
   }
 
   /*footer...regretful !important tag - fix? */
@@ -158,7 +157,7 @@ Theme Name: Eqiuty Lending Inc.
   /* about page */
 
   #page-about {
-    height: auto;
+    height: 800px;
     background-size:100% auto !important;
     margin:0;
     /*position:absolute; /*img stay in place*/*/
