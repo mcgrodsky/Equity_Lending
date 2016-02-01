@@ -1,5 +1,5 @@
 <h1> Equity Lending </h1>
-<h2>Custom WordPress Theme</h2>
+<h2>Custom Responsive WordPress Theme</h2>
 
 <h4> Technologies Used </h4>
   <ol>
