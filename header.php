@@ -8,9 +8,8 @@
   <body>
     <div class = "wrapper">
         <div class = "clearfix" id = "header-nav">
-
           <div id="navigation" class = "clearfix">
-            <a href="<?php echo get_option('about'); ?>/"><div class= "logo"> <img src="http://i.imgur.com/oHYEVI1.jpg" alt="Equity Lending Inc"class = "logo-img" /></div></a>
+            <a href="<?php echo get_option('about'); ?>/"><div class= "logo"> <img src="http://i.imgur.com/hx3NOMA.png" alt="Equity Lending Inc" class = "logo-img" /></div></a>
             <?php
             wp_nav_menu( array(
             'theme_location' => 'main-menu', // Setting up the location for the main-menu, Main Navigation.
