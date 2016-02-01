@@ -1,5 +1,13 @@
 (function($){
   $(document).ready(function(){
+    $(window).scroll(function() {
+      if ($(this).scrollTop() > 1){
+    $('#navigation').addClass("sticky");
+  }
+  else{
+    $('#navigation').removeClass("sticky");
+  }
+});
   // $('.target-icon-one').on("click", function(){
   //   $('.hidden-keyword-description-one').toggle();
   //     $('.cta-btn').toggle();
@@ -17,10 +25,13 @@
       function () {
         $('.hidden-keyword-description-one').show();
         $('.cta-btn').show();
+        $('.target-word-one').addClass('target-word-one-hover');
       },
       function () {
         $('.hidden-keyword-description-one').hide();
         $('.cta-btn').hide();
+        $('.target-word-one').removeClass('target-word-one-hover');
+
       }
     );
 

@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <div id = "contact-page">
 <!-- loop to print content  -->
+<h1>Contact Us </h1>
   <?php
     if(have_posts()):
       while(have_posts()):

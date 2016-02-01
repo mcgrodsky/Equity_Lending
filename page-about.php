@@ -15,7 +15,7 @@
 
     <!-- ACF for target words -->
     <div id = "target-header" class = "clearfix">
-      <h2 class = "target-word"><?php the_field('adjective1'); ?></h2>
+      <h2 class = "target-word target-word-one"><?php the_field('adjective1'); ?></h2>
       <h2 class = "target-word"><?php the_field('adjective2'); ?></h2>
       <h2 class = "target-word"><?php the_field('adjective3'); ?></h2>
     </div>
