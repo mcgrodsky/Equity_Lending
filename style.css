@@ -22,6 +22,13 @@ Theme Name: Eqiuty Lending Inc.
 
   html, body {
     height:100%;
+    color:black;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+  a{
+    color:black;
+    font-weight: bold;
   }
 
   body{
@@ -39,10 +46,27 @@ Theme Name: Eqiuty Lending Inc.
     margin-left:2em;
     position:absolute;
   }
+
+  #header-nav{
+    height:135px;
+    border-bottom: 2px solid #034077;
+
+  }
   #navigation{
-    border-bottom: 2px solid black;
+    position:fixed;
+    transition: all 0.4s ease;
+    width:100%;
+    float:right;
+
   }
 
+  #navigation.sticky{
+    width:100%;
+    float:right;
+    background: white;
+    border-bottom: 2px solid #034077;
+
+  }
 
   /*footer...regretful !important tag - fix? */
  .wrapper {
@@ -55,6 +79,10 @@ Theme Name: Eqiuty Lending Inc.
   height: 2em;
   background: white;
   text-align: center;
+  }
+
+  .footer{
+      border-top:2px solid black;
   }
 
   /* The container wrapping ul.dropdown */
@@ -118,9 +146,9 @@ Theme Name: Eqiuty Lending Inc.
   ul.dropdown ul li:hover ul ,
   ul.dropdown ul li ul li:hover ul {
   display: block;
-  border:1px solid gray;
-  border-radius: 10px;
-  background:#e6e6e6;
+  border:2px solid #034077;
+  adius: 10px;
+  background:white;
   display: inline-block;
   width:8em;
   }
@@ -129,7 +157,6 @@ Theme Name: Eqiuty Lending Inc.
   ul.dropdown li * a:hover {
   /* Change color of links when hovered */
   background:#2BA8E0;
-  border-radius:5px;
   }
 
   /* about page */
@@ -137,15 +164,16 @@ Theme Name: Eqiuty Lending Inc.
   #page-about {
     height: 800px;
     background-size:100% auto !important;
-    position:absolute; /*img stay in place*/
+    margin:0;
+    /*position:absolute; /*img stay in place*/*/
   }
 
     /*description box*/
   .about-description{
-    border:1px solid gray;
-    background:rgba(255,255,255, .7);  
+    border:1px solid #034077;
+    background:rgba(255,255,255, .7);
     width:70%;
-    margin:4em auto;
+    margin:0 auto;
     height:auto;
   }
   .about-me-header{
@@ -159,23 +187,28 @@ Theme Name: Eqiuty Lending Inc.
     padding:.5em 0;
     font-size: 2.5vw;
   }
+
+  .target-word-one-hover{
+    text-decoration: underline;
+  }
     #target-icons{
       margin-top:1em;
       padding:0 0 2em;
     }
 
     .about-content{
-      padding:1.5em;
+      padding:0 1.5em;
     }
   /*div around icon*/
   .single-icon{
     width:22.6%;
-    -moz-border-radius: 50px;
+    -moz-adius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 100px;
     margin: 0 5%;
     float:left;
     text-align:center;
+    color:
   }
   .target-icon{
     vertical-align: middle;
@@ -183,11 +216,24 @@ Theme Name: Eqiuty Lending Inc.
     padding:1em;
     border-radius:50px;
   }
-  .target-icon:hover{
-    border:3px solid pink;
+
+  .target-icon-one:hover{
+    border: 4px solid #034077;
   }
 
-  /*keyword descritipn toggled divs*/
+
+  .target-icon-two:hover{
+    border: 4px solid #7EA317;
+  }
+
+  .target-icon-three:hover{
+    border: 4px solid #2BA8E0;
+  }
+
+
+
+
+  /*keyword description toggled divs*/
   #keyword-description{
     width:80%;
     margin:0 auto;
@@ -219,9 +265,9 @@ Theme Name: Eqiuty Lending Inc.
   display: table;
   clear: both;
 }
-.item3{
-  margin-right: 0;
-}
+  .item3{
+    margin-right: 0;
+  }
 
   .neighborhood-img{
     width:80%;
@@ -263,11 +309,51 @@ Theme Name: Eqiuty Lending Inc.
 input[type=text] {
    height:30px;
    font-size:14px;
+   text-align: center;
 }
 
+input:hover{
+  color:
+#2BA8E0
+;
+}
+
+/*forms page*/
+
+  .form{
+    border:1px solid #e6e6e6;
+    width:60%;
+    margin:0 auto;
+  }
+  .form p {
+    text-align: center;
+  }
+
+  .ss-q-title{
+    font-size:14px;
+  }
+
+  .ss-form-entry{
+    font-size:14px;
+  }
+
+  .ss-form input[type="text"]{
+    background:white;
+    width:250px;
+    color:black;
+    height:30px;
+    text-align:left;
+  }
+
+  .ss-required-asterisk{
+  display: none;   /*hiding required tag*/
+  }
+
+  .form-header{
+    text-align:center;
+    padding: 1em;
+  }
 /*media queries*/
-
-
 
 /*less than 767px  */
 @media (max-width: 816px) {
