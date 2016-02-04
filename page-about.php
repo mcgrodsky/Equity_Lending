@@ -17,8 +17,8 @@
       <!-- ACF for target words -->
       <div id = "target-header" class = "clearfix">
         <h2 class = "target-word target-word-one"><?php the_field('adjective1'); ?></h2>
-        <h2 class = "target-word"><?php the_field('adjective2'); ?></h2>
-        <h2 class = "target-word"><?php the_field('adjective3'); ?></h2>
+        <h2 class = "target-word target-word-two"><?php the_field('adjective2'); ?></h2>
+        <h2 class = "target-word target-word-three"><?php the_field('adjective3'); ?></h2>
       </div>
 
        <!-- ACF for target images -->
@@ -54,7 +54,7 @@
           <button class = "cta-btn btn-one"><?php the_field('call_to_action_field_1'); ?> </button>
           <button class = "cta-btn btn-two"><?php the_field('call_to_action_field_2'); ?> </button>
           </div>
-        </div>  
+        </div>
     </div>
 
   </div>

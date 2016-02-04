@@ -83,6 +83,7 @@ Theme Name: Eqiuty Lending Inc.
 
   .footer{
       border-top:2px solid black;
+      padding-top:1em;
   }
 
   /* Top level Unordered list */
@@ -157,7 +158,7 @@ Theme Name: Eqiuty Lending Inc.
   /* about page */
 
   #page-about {
-    height:600px;
+    height:auto;
     background-size:100% auto !important;
     margin:0;
     background: url('http://i.imgur.com/E3lECKy.jpg') center right;
@@ -182,29 +183,23 @@ Theme Name: Eqiuty Lending Inc.
     float:left;
     text-align:center;
     padding:.5em 0;
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
 
-  .target-word-one-hover{
-    text-decoration: underline;
-  }
     #target-icons{
-      margin-top:1em;
-      padding:0 0 2em;
+      padding:0 0 1em;
     }
 
     .about-content{
       padding:0 1.5em;
-      background:rgba(255, 255, 255, .6);
+      background:rgba(255, 255, 255, .7);
+      border: 1px solid #5e5e5e;
       width:70%;
       padding:1em;
       margin: 0 auto;
     }
 
     .about-content, p{
-      background:white;
-      width:70%;
-      padding:1px;
       margin: 0 auto;
     }
   /*div around icon*/
@@ -223,12 +218,20 @@ Theme Name: Eqiuty Lending Inc.
     border: 1px solid lightgray;
     padding:1em;
     border-radius:50px;
+
   }
 
-  .target-icon-one:hover{
+
+  .target-icon-one{
     border: 4px solid #034077;
   }
+  .target-word-one{
+    text-decoration: underline;
+  }
 
+  .target-icon-one{
+    border: 4px solid #034077;
+  }
 
   .target-icon-two:hover{
     border: 4px solid #7EA317;
@@ -239,20 +242,24 @@ Theme Name: Eqiuty Lending Inc.
   }
 
   /*keyword description toggled divs*/
-  #keyword-description{
-    width:80%;
-    margin:0 auto;
+#keyword-description{
+    width:70%;
+    margin:1em auto;
+    border:1px solid gray;
+    background: rgba(255, 255, 255, .7);
+
   }
-  .hidden-keyword-description-one, .hidden-keyword-description-two, .hidden-keyword-description-three{
+.hidden-keyword-description-two, .hidden-keyword-description-three{
   display:none;
+  padding:1em;
+
   }
 
-  .cta-btn-div{
+.cta-btn-div{
     width:50%;
     margin: 0 auto;
   }
   .cta-btn{
-    display:none;
     padding:1.3em;
     font-size:14px;
     margin:1.3em 0;
@@ -266,6 +273,10 @@ Theme Name: Eqiuty Lending Inc.
   .btn-two{
     background: #7EA317;
     float:right;
+  }
+
+  .about{
+    border; 1px solid blue;
   }
   /*neighborhood display template*/
   #neighborhood-display{
