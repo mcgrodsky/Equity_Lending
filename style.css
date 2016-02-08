@@ -176,7 +176,8 @@ Theme Name: Eqiuty Lending Inc.
   }
   .about-me-header{
     text-align: center;
-    padding:.5em 0;
+    padding: 1em 0 .2em 0;
+    font-size:30a0%;
   }
   .target-word{
     width:32.5%;
@@ -190,17 +191,25 @@ Theme Name: Eqiuty Lending Inc.
       padding:0 0 1em;
     }
 
+    .about{
+      padding: 1em;
+      margin: 0 auto;
+      background:rgba(255, 255, 255, .5);
+    }
+    .target-words{
+            background:rgba(255, 255, 255, .5);
+    }
     .about-content{
       padding:0 1.5em;
-      background:rgba(255, 255, 255, .7);
-      border: 1px solid #5e5e5e;
-      width:70%;
+
+      width:90%;
       padding:1em;
       margin: 0 auto;
     }
 
     .about-content, p{
       margin: 0 auto;
+      line-height: 190%;
     }
   /*div around icon*/
   .single-icon{
@@ -251,7 +260,7 @@ Theme Name: Eqiuty Lending Inc.
     width:70%;
     margin:1em auto;
     border:1px solid gray;
-    background: rgba(255, 255, 255, .7);
+    background: rgba(3, 64, 119, .2);
 
   }
 .hidden-keyword-description-two, .hidden-keyword-description-three{
@@ -298,9 +307,8 @@ Theme Name: Eqiuty Lending Inc.
   [id*='neighborhood-item'] {
     float: left;
     width:32.05%;
-    padding-right: 20px;
-    border: 1px solid lightgray;
-    margin-right: 1em;
+    border: 1px solid #034077;
+    margin-right: 1.4em;
     height:auto;
     -webkit-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
@@ -314,6 +322,10 @@ Theme Name: Eqiuty Lending Inc.
   .item3{
     margin-right: 0;
   }
+  .neighborhood-title{
+    font-size:140%;
+    padding:.6em 0;
+  }
 
   .neighborhood-img{
     width:80%;
@@ -321,13 +333,14 @@ Theme Name: Eqiuty Lending Inc.
   }
   .neighborhood-type{
     font-size: 20px;
-    background:#2BA8E0;
+    width:100%;
+    background:rgba(43, 168, 224, .5);
     overflow:auto;
     display: inline-block;
   }
   .neighborhood-amount{
     font-size: 20px;
-      background:#7EA317;
+    background:rgba(126, 163, 23, .5);
   }
   .neighborhood-description{
     font-size:18px;
@@ -360,7 +373,7 @@ input[type=text] {
 /*forms page*/
 
   .form{
-    border:1px solid #e6e6e6;
+    border:1px solid #034077;
     width:60%;
     margin:0 auto;
     -webkit-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);

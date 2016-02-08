@@ -13,7 +13,8 @@
         <?php endwhile;
       endif;
       ?>
-
+    </div>
+    <div class = "target-words">
       <!-- ACF for target words -->
       <div id = "target-header" class = "clearfix">
         <h2 class = "target-word target-word-one"><?php the_field('adjective1'); ?></h2>
@@ -55,7 +56,7 @@
           <button class = "cta-btn btn-two"><?php the_field('call_to_action_field_2'); ?> </button>
           </div>
         </div>
-    </div>
+      </div>  
 
   </div>
 </div>

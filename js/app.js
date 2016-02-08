@@ -10,6 +10,7 @@
 });
 
 $('.target-icon-two').on("click", function(){
+  $('#keyword-description').css("background", "rgba(126, 163, 23, .2)");
   $('.hidden-keyword-description-one').hide();
   $('.hidden-keyword-description-three').hide();
   $('.hidden-keyword-description-two').show();
@@ -26,6 +27,7 @@ $('.target-icon-two').on("click", function(){
 })
 
 $('.target-icon-three').on("click", function(){
+  $('#keyword-description').css("background", "rgba(43, 168, 224, .2)");
   $('.hidden-keyword-description-one').hide();
   $('.hidden-keyword-description-two').hide();
   $('.hidden-keyword-description-three').show();
@@ -35,11 +37,11 @@ $('.target-icon-three').on("click", function(){
   $('.target-icon-two').css("border", "none");
   $('.target-icon-one').css("border", "none");
   $('.target-icon-three').css("border", "4px solid #2BA8E0");
-
-
-
 })
+
+
 $('.target-icon-one').on("click", function(){
+  $('#keyword-description').css("background", "rgba(3, 64, 119, .2)");
   $('.hidden-keyword-description-three').hide();
   $('.hidden-keyword-description-two').hide();
   $('.hidden-keyword-description-one').show();
@@ -57,44 +59,3 @@ $('.target-icon-one').on("click", function(){
 
 })
 })(jQuery);
-
-
-//
-// $('.target-icon-one').hover(
-//   function () {
-//     $('.hidden-keyword-description-one').show();
-//     $('.cta-btn').show();
-//     $('.target-word-one').addClass('target-word-one-hover');
-//   },
-//   function () {
-//     $('.hidden-keyword-description-one').hide();
-//     $('.cta-btn').hide();
-//     $('.target-word-one').removeClass('target-word-one-hover');
-//
-//   }
-// );
-
-//   $('.target-icon-two').hover(
-//     function () {
-//       $('.hidden-keyword-description-two').show();
-//       $('.cta-btn').show();
-//     },
-//     function () {
-//       $('.hidden-keyword-description-two').hide();
-//       $('.cta-btn').hide();
-//     }
-//   );
-//
-//
-//   $('.target-icon-three').hover(
-//     function () {
-//       $('.hidden-keyword-description-three').show();
-//       $('.cta-btn').show();
-//     },
-//     function () {
-//       $('.hidden-keyword-description-three').hide();
-//       $('.cta-btn').hide();
-//
-//     }
-//   );
-// });
