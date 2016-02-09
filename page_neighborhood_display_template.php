@@ -3,6 +3,7 @@
 ?>
 <?php get_header(); ?>
   <div id = "neighborhood-display" class = "clearfix">
+    <h3 class ="neighborhood-title-page"><?php the_title( '<h3>', '</h3>' ); ?></h3>
 
     <!--How can I refactor following block? They are each representing one "listing" of each neighborhood -->
 

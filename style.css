@@ -32,15 +32,16 @@ Theme Name: Eqiuty Lending Inc.
     font-weight: bold;
   }
   h1{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+  font-weight:400;
   }
   body{
     margin:0;
     background-size:100% auto;
   }
-p, li{
-  font-family: 'Questrial', sans-serif;
-  color:#034077;
+p, li, .ss-form-entry{
+font-family: 'Open Sans', sans-serif;  color:#034077;
+font-weight:400;
 }
     /*nav menu*/
   .logo{
@@ -55,7 +56,7 @@ p, li{
 
   #header-nav{
     height:105px;
-    border-bottom: 2px solid #034077;
+    border-bottom: 1px solid #335942;
 
   }
   #navigation{
@@ -70,8 +71,8 @@ p, li{
     width:100%;
     float:right;
     background: white;
-    border-bottom: 2px solid #034077;
-    border-top: 2px solid #034077;
+    border-bottom: 1px solid #034077;
+    border-top: 1px solid #034077;
     height:105px;
   }
 
@@ -97,7 +98,7 @@ p, li{
   list-style:none;
   width:100%; /* to offset */
   padding: 3em 2em;
-  font-size:120%;
+  font-size:105%;
   }
   ul.dropdown  li{
   float:right; /* makes horiz list right */
@@ -108,6 +109,7 @@ p, li{
   padding:8px; /*space the items, occupy entire height too.*/
   text-decoration:none;
   color:#034077;
+  font-weight:300;
   }
   /* Style the link hover */
   ul.dropdown li:hover a {
@@ -186,7 +188,6 @@ p, li{
     text-align: center;
     padding: 1em 0 .2em 0;
     font-size:300%;
-    font-family: 'Old Standard TT', serif;
   }
 
   .target-word{
@@ -212,10 +213,12 @@ p, li{
       background:rgba(255, 255, 255, .7);
       padding: 2em 2em 5em;
       border-radius:5px;
+      border:1px solid #034077;
     }
     .target-words{
     background:rgba(255, 255, 255, .5);
-    padding:6em 0 8em;
+    padding:5.5em 0 2em;
+
     }
     .about-content{
       padding:0 1.5em;
@@ -280,6 +283,7 @@ p, li{
     margin:4em auto;
     border:1px solid gray;
     background: rgba(3, 64, 119, .2);
+    padding:3em 2em 4em;
 
   }
 .hidden-keyword-description-two, .hidden-keyword-description-three{
@@ -317,21 +321,28 @@ p, li{
     border; 1px solid blue;
   }
   /*neighborhood display template*/
+
+  #neighborhood-display h3{
+    text-align: center;
+    margin:.5em 0;
+    margin-bottom:1em;
+    font-size:220%;
+    font-weight:400;
+    color:#335942;
+  }
   #neighborhood-display{
     width: 90%;
-    margin: 3em auto;
+    margin: 2em auto;
     text-align: center;
   }
 
   [id*='neighborhood-item'] {
     float: left;
     width:32.05%;
-    border: 1px solid #034077;
+    border: 1px solid #335942;
     margin-right: 1.4em;
     height:auto;
-    -webkit-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
-      box-shadow: 0px 0px 16px -1px rgba(0,0,0,0.75);
+
   }
   #neighborhood-item:after {
   content: "";
@@ -343,29 +354,37 @@ p, li{
   }
   .neighborhood-title{
     font-size:140%;
+    font-weight:500;
     padding:.6em 0;
+    font-family: 'Open Sans', sans-serif;
   }
 
   .neighborhood-img{
     width:80%;
     height: 270px;
-    border:1px solid #034077;
+    border:1px solid gray;
+    margin-bottom:1em;
   }
   .neighborhood-type{
-    font-size: 20px;
+    font-size:110%;
     width:100%;
     background:rgba(43, 168, 224, .5);
     overflow:auto;
     display: inline-block;
     padding:.5em;
+    font-weight:300;
+
   }
   .neighborhood-amount{
-    font-size: 20px;
     background:rgba(126, 163, 23, .5);
     padding:.5em;
+    font-weight:300;
+    font-size:110%;
+
   }
   .neighborhood-description{
     font-size:18px;
+    font-weight:300;
     font-style: italic;
     padding:1em;
   }
@@ -388,8 +407,8 @@ p, li{
 }
 
 input[type=text] {
-   height:30px;
-   font-size:14px;
+   height:40px;
+   font-size:130%;
 }
 
 /*forms page*/
@@ -404,6 +423,7 @@ input[type=text] {
   }
   .form p {
     text-align: center;
+    color:#0073C4;
   }
 
   .ss-q-title{
@@ -420,8 +440,9 @@ input[type=text] {
     background:white;
     width:300px;
     color:black;
-    height:30px;
+    height:40px;
     text-align:left;
+    font-size: 120%;
   }
 
   .ss-required-asterisk{
@@ -429,6 +450,7 @@ input[type=text] {
   }
 
   .form-header{
+    margin-top:1em;
     text-align:center;
     padding: 1em;
     font-style: italic;
@@ -444,9 +466,7 @@ input[type=text] {
   .logo-img{
     position:relative;
   }
-  #header-nav{
-    height:160px;
-  }
+
   #navwrap{
     width:90%;
     margin:0 auto;
@@ -479,6 +499,9 @@ input[type=text] {
   #navigation.sticky{
     height:125px;
   }
+  #header-nav{
+    height:125px;
+  }
 }
 
 /*between 817px and 979px*/
@@ -495,6 +518,9 @@ input[type=text] {
   }
   .item3{
     margin-top: 1em;
+  }
+  #header-nav{
+    height:125px;
   }
 }
 
