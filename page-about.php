@@ -3,16 +3,18 @@
     <div class = "about-description">
       <div class = "about">
       <!-- ACF for paragraph header -->
-      <h1 class = "about-me-header"><?php the_field('page_header'); ?></h1>
-      <!-- loop to print content  -->
-      <?php
-      if(have_posts()):
-        while(have_posts()):
-          the_post(); ?>
-          <h3 class="about-content"><?php the_content(); ?> </h3>
-        <?php endwhile;
-      endif;
-      ?>
+      <div class = "about-box">
+        <h1 class = "about-me-header"><?php the_field('page_header'); ?></h1>
+        <!-- loop to print content  -->
+        <?php
+        if(have_posts()):
+          while(have_posts()):
+            the_post(); ?>
+            <h3 class="about-content"><?php the_content(); ?> </h3>
+          <?php endwhile;
+        endif;
+        ?>
+      </div>  
     </div>
     <div class = "target-words">
       <!-- ACF for target words -->
@@ -56,7 +58,7 @@
           <button class = "cta-btn btn-two"><?php the_field('call_to_action_field_2'); ?> </button>
           </div>
         </div>
-      </div>  
+      </div>
 
   </div>
 </div>

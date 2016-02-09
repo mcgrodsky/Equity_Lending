@@ -3,7 +3,7 @@
     <head>
       <title>Equity Lending, Inc.</title>
       <?php wp_head(); ?>
-      <link href='https://fonts.googleapis.com/css?family=Fira+Sans' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Raleway|Old+Standard|TT|Questrial' rel='stylesheet' type='text/css'>
     </head>
   <body>
     <div class = "wrapper">

@@ -24,18 +24,24 @@ Theme Name: Eqiuty Lending Inc.
     height:100%;
     color:black;
     font-family: 'Fira Sans', sans-serif;
+    color:#034077;
   }
 
   a{
     color:black;
     font-weight: bold;
   }
-
+  h1{
+    font-family: 'Questrial', sans-serif;
+  }
   body{
     margin:0;
     background-size:100% auto;
   }
-
+p, li{
+  font-family: 'Questrial', sans-serif;
+  color:#034077;
+}
     /*nav menu*/
   .logo{
     margin: 0;
@@ -89,16 +95,19 @@ Theme Name: Eqiuty Lending Inc.
   /* Top level Unordered list */
   ul.dropdown {
   list-style:none;
-  width:98%; /* to offset */
+  width:100%; /* to offset */
   padding: 3em 2em;
+  font-size:120%;
   }
   ul.dropdown  li{
   float:right; /* makes horiz list right */
   position:relative; /* submenu ULs, appear below! */
+
   }
   ul.dropdown a {
   padding:8px; /*space the items, occupy entire height too.*/
   text-decoration:none;
+  color:#034077;
   }
   /* Style the link hover */
   ul.dropdown li:hover a {
@@ -120,6 +129,7 @@ Theme Name: Eqiuty Lending Inc.
   }
   ul.dropdown li ul {
   top:27px; /* Positioning:Calc with top level horz list height */
+
   }
   ul.dropdown ul ul {
   top:0;
@@ -143,13 +153,12 @@ Theme Name: Eqiuty Lending Inc.
   ul.dropdown ul li ul li:hover ul {
   display: block;
   border:2px solid #034077;
-  adius: 10px;
+  radius: 10px;
   background:white;
   display: inline-block;
   width:8em;
   }
-  .menu-item{
-  }
+
   ul.dropdown li * a:hover {
   /* Change color of links when hovered */
   background:#2BA8E0;
@@ -161,7 +170,7 @@ Theme Name: Eqiuty Lending Inc.
     height:auto;
     background-size:100% auto !important;
     margin:0;
-    background: url('http://i.imgur.com/E3lECKy.jpg') center right;
+    /*background: url('http://i.imgur.com/E3lECKy.jpg') center right;*/
 
 
   }
@@ -169,7 +178,6 @@ Theme Name: Eqiuty Lending Inc.
     /*description box*/
   .about-description{
     border:1px solid #034077;
-    background:rgba(255,255,255, .6);
     width:100%;
     margin:0 auto;
     height:auto;
@@ -177,27 +185,37 @@ Theme Name: Eqiuty Lending Inc.
   .about-me-header{
     text-align: center;
     padding: 1em 0 .2em 0;
-    font-size:30a0%;
+    font-size:300%;
+    font-family: 'Old Standard TT', serif;
   }
+
   .target-word{
     width:32.5%;
     float:left;
     text-align:center;
     padding:.5em 0;
     font-size: 2vw;
-  }
+    font-family: 'Old Standard TT', serif;  }
 
     #target-icons{
       padding:0 0 1em;
     }
 
     .about{
-      padding: 1em;
-      margin: 0 auto;
-      background:rgba(255, 255, 255, .5);
+    padding: 5em 2em 14em;
+    margin: 0 auto;
+    background: url('http://i.imgur.com/E3lECKy.jpg') center;
+
+    background-size: cover;
+    }
+    .about-box{
+      background:rgba(255, 255, 255, .7);
+      padding: 2em 2em 5em;
+      border-radius:5px;
     }
     .target-words{
-            background:rgba(255, 255, 255, .5);
+    background:rgba(255, 255, 255, .5);
+    padding:6em 0 8em;
     }
     .about-content{
       padding:0 1.5em;
@@ -210,6 +228,7 @@ Theme Name: Eqiuty Lending Inc.
     .about-content, p{
       margin: 0 auto;
       line-height: 190%;
+      font-size: 115%;
     }
   /*div around icon*/
   .single-icon{
@@ -257,8 +276,8 @@ Theme Name: Eqiuty Lending Inc.
 
   /*keyword description toggled divs*/
 #keyword-description{
-    width:70%;
-    margin:1em auto;
+    width:80%;
+    margin:4em auto;
     border:1px solid gray;
     background: rgba(3, 64, 119, .2);
 
@@ -330,6 +349,7 @@ Theme Name: Eqiuty Lending Inc.
   .neighborhood-img{
     width:80%;
     height: 270px;
+    border:1px solid #034077;
   }
   .neighborhood-type{
     font-size: 20px;
@@ -337,15 +357,17 @@ Theme Name: Eqiuty Lending Inc.
     background:rgba(43, 168, 224, .5);
     overflow:auto;
     display: inline-block;
+    padding:.5em;
   }
   .neighborhood-amount{
     font-size: 20px;
     background:rgba(126, 163, 23, .5);
+    padding:.5em;
   }
   .neighborhood-description{
     font-size:18px;
     font-style: italic;
-    padding:1em 0;
+    padding:1em;
   }
 
 
