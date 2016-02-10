@@ -91,6 +91,7 @@ font-weight:400;
   .footer{
       border-top:2px solid black;
       padding-top:1em;
+      padding-bottom:1em;
   }
 
   /* Top level Unordered list */
@@ -216,8 +217,8 @@ font-weight:400;
       border:1px solid #034077;
     }
     .target-words{
-    background:rgba(255, 255, 255, .5);
-    padding:5.5em 0 2em;
+    background:url('small-crackle-bright.png');
+    padding:5em 0 0 0;
 
     }
     .about-content{
