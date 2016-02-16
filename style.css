@@ -328,7 +328,7 @@ font-weight:400;
     margin:.5em 0;
     margin-bottom:1em;
     font-size:220%;
-    font-weight:400;
+    font-weight:300;
     color:#335942;
   }
   #neighborhood-display{
@@ -514,10 +514,10 @@ input[type=text] {
 
   [id*='neighborhood-item']{
     width:45%;
+    margin-top:1em;
+    margin-right:1.3em;
   }
-  .item2{
-    margin-right:0;
-  }
+
   .item3{
     margin-top: 1em;
   }
@@ -527,13 +527,12 @@ input[type=text] {
 }
 
 /*between 980px and 1200px*/
-@media (min-width: 980px) and (max-width: 1200px) {
+@media (min-width: 980px) and (max-width: 1292px) {
 
   [id*='neighborhood-item']{
     width:46%;
-  }
-  .item2{
-    margin-right:0;
+    margin-top:1em;
+    margin-right:1.3em;
   }
 
   .item3{
@@ -544,10 +543,8 @@ input[type=text] {
   }
 }
 
-  /*more than 1200px  */
-  @media (min-width: 1201px) and (max-width: 1400) {
-    [id*='neighborhood-item']{
-      width:46%;
-  }
+@media (min-width: 980px) and (max-width: 1292px) {
 
-  }
+
+
+}
