@@ -67,35 +67,6 @@
   </div>
   </div>
 
-  <!-- individual block of neighborhood info for neighborhood 1-->
-  <div class = "grid">
-    <div id = "neighborhood-item" class = "clearfix item2">
-      <h1 class = "neighborhood-title"><?php the_field('neighborhood_title5'); ?></h1>
-      <?php
-      $image = get_field('image5');
-      if( !empty($image) ): ?>
-      <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "neighborhood-img" />
-    <?php endif; ?>
-    <h1 class = "neighborhood-type"><?php the_field('type5'); ?></h1>
-    <h1 class = "neighborhood-amount">$<?php the_field('amount5'); ?></h1>
-    <h1 class = "neighborhood-description"><?php the_field('description5'); ?></h1>
-  </div>
-  </div>
-
-  <!-- individual block of neighborhood info for neighborhood 1-->
-  <div class = "grid">
-    <div id = "neighborhood-item" class = "clearfix item3">
-      <h1 class = "neighborhood-title"><?php the_field('neighborhood_title6'); ?></h1>
-      <?php
-      $image = get_field('image6');
-      if( !empty($image) ): ?>
-      <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "neighborhood-img" />
-    <?php endif; ?>
-    <h1 class = "neighborhood-type"><?php the_field('type6'); ?></h1>
-    <h1 class = "neighborhood-amount">$<?php the_field('amount6'); ?></h1>
-    <h1 class = "neighborhood-description"><?php the_field('description6'); ?></h1>
-  </div>
-  </div>
 
 </div>
 

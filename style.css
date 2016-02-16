@@ -342,7 +342,8 @@ font-weight:400;
     width:32.05%;
     border: 1px solid #335942;
     margin-right: 1.4em;
-    height:auto;
+    height:590px;
+    margin-bottom:1em;
 
   }
   #neighborhood-item:after {
@@ -544,7 +545,7 @@ input[type=text] {
 }
 
   /*more than 1200px  */
-  @media (min-width: 980px) and (max-width: 1384) {
+  @media (min-width: 1201px) and (max-width: 1400) {
     [id*='neighborhood-item']{
       width:46%;
   }

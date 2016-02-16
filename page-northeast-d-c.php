@@ -97,6 +97,51 @@
   </div>
   </div>
 
+  <!-- individual block of neighborhood info for neighborhood 1-->
+  <div class = "grid">
+    <div id = "neighborhood-item" class = "clearfix">
+      <h1 class = "neighborhood-title"><?php the_field('neighborhood_title7'); ?></h1>
+      <?php
+      $image = get_field('image7');
+      if( !empty($image) ): ?>
+      <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "neighborhood-img" />
+    <?php endif; ?>
+    <h1 class = "neighborhood-type"><?php the_field('type7'); ?></h1>
+    <h1 class = "neighborhood-amount">$<?php the_field('amount7'); ?></h1>
+    <h1 class = "neighborhood-description"><?php the_field('description7'); ?></h1>
+  </div>
+  </div>
+
+  <!-- individual block of neighborhood info for neighborhood 1-->
+  <div class = "grid">
+    <div id = "neighborhood-item" class = "clearfix item2">
+      <h1 class = "neighborhood-title"><?php the_field('neighborhood_title8'); ?></h1>
+      <?php
+      $image = get_field('image8');
+      if( !empty($image) ): ?>
+      <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "neighborhood-img" />
+    <?php endif; ?>
+    <h1 class = "neighborhood-type"><?php the_field('type8'); ?></h1>
+    <h1 class = "neighborhood-amount">$<?php the_field('amount8'); ?></h1>
+    <h1 class = "neighborhood-description"><?php the_field('description8'); ?></h1>
+  </div>
+  </div>
+
+  <!-- individual block of neighborhood info for neighborhood 1-->
+  <div class = "grid">
+    <div id = "neighborhood-item" class = "clearfix item3">
+      <h1 class = "neighborhood-title"><?php the_field('neighborhood_title9'); ?></h1>
+      <?php
+      $image = get_field('image9');
+      if( !empty($image) ): ?>
+      <img src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" class = "neighborhood-img" />
+    <?php endif; ?>
+    <h1 class = "neighborhood-type"><?php the_field('type9'); ?></h1>
+    <h1 class = "neighborhood-amount">$<?php the_field('amount9'); ?></h1>
+    <h1 class = "neighborhood-description"><?php the_field('description9'); ?></h1>
+  </div>
+  </div>
+
 </div>
 
 
